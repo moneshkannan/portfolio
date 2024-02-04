@@ -13,10 +13,10 @@ export default function Home() {
         <Intro />
         <SectionDivider />
         <About />
-        <Projects projectsData={personalProjectsData} title="My Working Projects"/>
+        <Projects projectsData={personalProjectsData} link="work_projects" refer="Work Projects" title="My Working Projects"/>
         <Skills />
         <Experience />
-        <Projects projectsData={projectsData} title="My Personal Projects"/>
+        <Projects projectsData={projectsData} link="personal_projects" refer="Personal Projects" title="My Personal Projects"/>
         <Contact />
     </main>
   );
