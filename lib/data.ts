@@ -43,28 +43,28 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Product Engineer",
+    location: "Codingmart Technologies, Coimbatore",
+    description:
+    "I'm now a full-stack developer working as a full Time. My stack includes React, Next.js, Node js, TypeScript, Tailwind, Prisma, MongoDB, Ruby and Ruby on Rails",
+    icon: React.createElement(FaReact),
+    date: "2022 - present",
+  },
+  {
+    title: "Product Engineer Intern",
+    location: "Codingmart Technologies, Coimbatore",
+    description:
+    "I Worked and Trained as a full stack developer for 1 years in various different technologies",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021 - 2022",
+  },
+  {
     title: "B.Tech IT",
     location: "Sri Krishna College of Technology, Coimbatore",
     description:
       "IT engineer graduate with a passion for innovation and problem-solving. Ready to make a mark in the tech world!",
     icon: React.createElement(LuGraduationCap),
     date: "2022",
-  },
-  {
-    title: "Product Engineer Intern",
-    location: "Codingmart Technologies, Coimbatore",
-    description:
-      "I Worked and Trained as a full stack developer for 1 years in various different technologies",
-    icon: React.createElement(CgWorkAlt),
-    date: "2021 - 2022",
-  },
-  {
-    title: "Product Engineer",
-    location: "Codingmart Technologies, Coimbatore",
-    description:
-      "I'm now a full-stack developer working as a full Time. My stack includes React, Next.js, Node js, TypeScript, Tailwind, Prisma, MongoDB, Ruby and Ruby on Rails",
-    icon: React.createElement(FaReact),
-    date: "2022 - present",
   },
 ] as const;
 

@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        Hey there! 👋{" "} I'm a passionate
+        Hey there! 👋{" "} I'm a passionate {" "}
         <span className="font-medium">full-stack developer</span> with a knack for crafting smooth and user-friendly applications.{" "}
         <span className="italic"> My toolkit includes the likes</span>{" "}
         <span className="font-medium">
@@ -32,11 +32,11 @@ export default function About() {
       </p>
 
       <p className="mb-3">
-        <span className="italic">When I'm not immersed in the world of coding,</span>, you'll likely find me on the badminton court or cricket field, unleashing my competitive spirit.{" "}But hey, it's not all about the tech and sports—I also love{" "}
+        <span className="italic">When I'm not immersed in the world of coding,</span> you'll likely find me on the badminton court or cricket field, unleashing my competitive spirit.{" "}& hey, it's not all about the tech and sports—I also love{" "}
         <span className="font-medium"> love strumming away on my guitar</span>. creating melodies that resonate with my soul.{" "}
       </p>
       <p>
-        <span className="font-medium">join me on this journey where{" "}</span>
+        <span className="font-medium">Join me on this journey where{" "}</span>
         <span className="font-medium">technology meets creativity,</span> and let's build something incredible together! 🚀
       </p>
     </motion.section>
