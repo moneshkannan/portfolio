@@ -13,6 +13,19 @@ import { useActiveSectionContext } from "@/context/active-section-context";
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+  
+  const remainingYear = (year = 2021, month= 3) => {
+    const currentYear = new Date().getFullYear();
+    const currentMonth = new Date().getMonth() + 1;
+    let remainingYears = currentYear - year;
+    let remainingMonths = month - currentMonth;
+    if (remainingMonths < 0) {
+      remainingYears--;
+      remainingMonths += 12; // Adjusting for negative remaining months
+    }
+
+    return { years: remainingYears, months: remainingMonths };
+  }
 
   return (
     <section
@@ -63,10 +76,10 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Monesh RK.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">3 years</span> of experience. I enjoy
+        <span className="font-bold">Senior Product Engineer</span> (React JS, Node JS, ROR, .NET Core, SQL) with{" "}
+        <span className="font-bold">{remainingYear().years}+ Years </span> of experience. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="underline">Learning New Technologies</span>.
       </motion.h1>
 
       <motion.div

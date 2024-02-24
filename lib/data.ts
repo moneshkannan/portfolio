@@ -48,15 +48,7 @@ export const experiencesData = [
     description:
     "I'm now a full-stack developer working as a full Time. My stack includes React, Next.js, Node js, TypeScript, Tailwind, Prisma, MongoDB, Ruby and Ruby on Rails",
     icon: React.createElement(FaReact),
-    date: "2022 - present",
-  },
-  {
-    title: "Product Engineer Intern",
-    location: "Codingmart Technologies, Coimbatore",
-    description:
-    "I Worked and Trained as a full stack developer for 1 years in various different technologies",
-    icon: React.createElement(CgWorkAlt),
-    date: "2021 - 2022",
+    date: "2021 - present",
   },
   {
     title: "B.Tech IT",
@@ -121,9 +113,12 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "TypeScript",
+  "C#",
   "React",
   "Next.js",
   "Node.js",
+  "Ruby on Rails",
+  ".NET Core",
   "Git",
   "Tailwind",
   "Bootrap",
@@ -131,6 +126,7 @@ export const skillsData = [
   "Prisma",
   "MongoDB",
   "Redux",
+  "Vite",
   // "GraphQL",
   // "Apollo",
   "Express",
