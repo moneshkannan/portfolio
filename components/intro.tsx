@@ -44,7 +44,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://media.licdn.com/dms/image/C5603AQEFD5k35q9L4w/profile-displayphoto-shrink_800_800/0/1645289054387?e=1711584000&v=beta&t=yewD8amWQ2N8DYG9NsexiKCemy6zyjniGF2TPqDTWmo"
+              src="https://instagram.fcjb6-1.fna.fbcdn.net/v/t51.2885-15/269998430_1047333405827106_4503357359496232525_n.jpg?stp=dst-jpg_e35_s320x320&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0NDAuc2RyIn0&_nc_ht=instagram.fcjb6-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=I8yoTzmH8O4AX9IyhI6&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfBKloC9QPb3p2kR1aRyMGYc5aSOWNbdM486nUQQBCfA5w&oe=65EBEF9C&_nc_sid=8b3546"
               alt="Monesh Kannan"
               width="192"
               height="192"

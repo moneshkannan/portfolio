@@ -8,7 +8,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "media.licdn.com",
+        hostname: "instagram.fcjb6-1.fna.fbcdn.net",
       },
     ],
   },
